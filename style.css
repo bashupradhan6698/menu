@@ -6,7 +6,7 @@
 
 body {
   background-image: url("/assets/images/beans.jpg");
-  font-family: Impact, serif;
+  font-family: sans-serif;
 }
 
 .container {
@@ -19,14 +19,14 @@ body {
 
 .content-wrapper {
   background-color: burlywood;
-  width: 25%;
-  height: 500px;
+  width: 27%;
+  height: 560px;
   padding: 20px;
 }
 
 .top {
   text-align: center;
-  padding: 10px;
+  padding: 8px;
   border-bottom: 5px solid brown;
 }
 
@@ -37,7 +37,6 @@ body {
 
 .top p {
   font-size: 16px;
-  text;
 }
 
 .border {
@@ -45,4 +44,37 @@ body {
   position: absolute;
   top: 50%;
   bottom: 0;
+}
+
+.menu-item-head1 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.menu-item-head1 h2 {
+  font-size: 30px;
+}
+
+.menu-item1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-item2 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 5px solid brown;
+  padding-bottom: 10px;
+}
+
+
+ul li {
+  list-style-type: none;
+}
+
+.footer {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 12px;
+  padding: 20px;
 }
